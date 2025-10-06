@@ -1,0 +1,27 @@
+{
+  "inbounds": [{
+    "port": 10000,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{
+        "id": "YOUR-UUID",
+        "flow": "xtls-rprx-vision"
+      }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "tlsSettings": {
+        "serverName": "your-app.onrender.com"
+      },
+      "wsSettings": {
+        "path": "/ws"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
