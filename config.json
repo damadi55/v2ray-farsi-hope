@@ -4,7 +4,7 @@
     "protocol": "vless",
     "settings": {
       "clients": [{
-        "id": "YOUR-UUID",
+        "id": "REPLACE-WITH-YOUR-UUID",
         "flow": "xtls-rprx-vision"
       }],
       "decryption": "none"
@@ -13,7 +13,7 @@
       "network": "ws",
       "security": "tls",
       "tlsSettings": {
-        "serverName": "your-app.onrender.com"
+        "serverName": "REPLACE-WITH-YOUR-APP-NAME.onrender.com"
       },
       "wsSettings": {
         "path": "/ws"
